@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'rhel-8'
+  vmImage: ubuntu-letest
 
 steps:
 - task: Maven@3
