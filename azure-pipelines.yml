@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: linux-latest
+  vmImage: 'rhel-8'
 
 steps:
 - task: Maven@3
